@@ -1,5 +1,4 @@
 const size = Number(process.argv.at(2));
-
 if (!Number.isInteger(size)) {
   console.log("Missing size");
 } else {
